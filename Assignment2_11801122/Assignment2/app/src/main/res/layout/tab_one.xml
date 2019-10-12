@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:id="@+id/tab1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ECE0F8"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Code"/>
+
+
+        <EditText
+            android:id="@+id/productCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textView1"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"/>
+
+        <EditText
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView2"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingRight="35dp"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"/>
+
+        <EditText
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView3"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+    
+    <Button
+
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:text="ADD TO INVENTORY"
+        android:background="#9A2EFE"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>

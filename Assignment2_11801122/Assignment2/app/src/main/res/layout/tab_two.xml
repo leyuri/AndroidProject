@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE0F8"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Name(Code)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/textView1Tab2" />
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:id="@+id/textView2Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Production Date"/>
+        <EditText
+            android:id="@+id/productionDate"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView2Tab2"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:id="@+id/textView3Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expiration Date"/>
+
+        <EditText
+            android:id="@+id/expirationDate"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView3Tab2"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingRight="70dp"
+            android:id="@+id/textView4Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView4Tab2"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+
+            android:paddingRight="1dp"
+            android:id="@+id/textView5Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount Per Box"/>
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/textView5Tab2"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:key=""
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Information are Correct"
+            android:textStyle="bold"
+            android:paddingRight="5dp"/>
+
+
+        <Button
+
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/checkBox"
+            android:background="#AC58FA"
+            android:textColor="#FFFFFF"
+            android:text="SUBMIT"
+            />
+
+        <Button
+
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnSubmit"
+            android:background="#4B088A"
+            android:textColor="#FFFFFF"
+            android:text="RESET"
+           />
+
+
+    </RelativeLayout>
+</LinearLayout>
