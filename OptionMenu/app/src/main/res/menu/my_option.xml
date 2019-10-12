@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/size_20"
+        android:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="20 pixels"
+        />
+    <item
+        android:id="@+id/size_30"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="110"
+        android:title="30 pixels"
+        />
+
+    <item
+        android:id="@+id/size_40"
+        android:showAsAction="never"
+        android:orderInCategory="120"
+        android:title="40 pixels"
+        />
+    <item
+        android:id="@+id/help"
+        android:showAsAction="never"
+        android:orderInCategory="130"
+        android:title="help"
+        />
+
+
+
+</menu>
